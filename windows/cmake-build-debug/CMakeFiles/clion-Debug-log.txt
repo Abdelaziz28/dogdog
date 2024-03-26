@@ -1,0 +1,1014 @@
+"D:\3b3znew\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/3b3znew/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\3b3znew\github\dogdog\windows -B D:\3b3znew\github\dogdog\windows\cmake-build-debug
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Nuget.exe not found, trying to download or use cached version.
+Feeds used:
+  C:\Users\3b3z\.nuget\packages\
+  https://api.nuget.org/v3/index.json
+
+
+
+Attempting to gather dependency information for package 'Microsoft.Windows.ImplementationLibrary.1.0.210803.1' with respect to project 'D:\3b3znew\github\dogdog\windows\cmake-build-debug\packages', targeting 'Any,Version=v0.0'
+Gathering dependency information took 1 sec
+Attempting to resolve dependencies for package 'Microsoft.Windows.ImplementationLibrary.1.0.210803.1' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'Microsoft.Windows.ImplementationLibrary.1.0.210803.1'
+Resolved actions to install package 'Microsoft.Windows.ImplementationLibrary.1.0.210803.1'
+Retrieving package 'Microsoft.Windows.ImplementationLibrary 1.0.210803.1' from 'C:\Users\3b3z\.nuget\packages\'.
+Adding package 'Microsoft.Windows.ImplementationLibrary.1.0.210803.1' to folder 'D:\3b3znew\github\dogdog\windows\cmake-build-debug\packages'
+Added package 'Microsoft.Windows.ImplementationLibrary.1.0.210803.1' to folder 'D:\3b3znew\github\dogdog\windows\cmake-build-debug\packages'
+Successfully installed 'Microsoft.Windows.ImplementationLibrary 1.0.210803.1' to D:\3b3znew\github\dogdog\windows\cmake-build-debug\packages
+Executing nuget actions took 672 ms
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/3b3znew/github/dogdog/windows/cmake-build-debug
+
+Cannot get compiler information:
+	Compiler exited with error code 1: D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe -xc++ -DUNICODE -D_DEBUG -D_HAS_EXCEPTIONS=0 -D_UNICODE -g -fdiagnostics-color=always /W4 /WX /wd\"4100\" /EHsc -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /W4 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase W4
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/W4: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /WX -mtune=generic -march=x86-64 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase WX
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/WX: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /wd"4100" -mtune=generic -march=x86-64 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase wd"4100"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/wd"4100": Invalid argument
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /EHsc -mtune=generic -march=x86-64 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase EHsc
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/EHsc: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END C:\Users\3b3z\AppData\Local\Temp\compiler-file16527132035362174040 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase compiler-file16527132035362174040
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	
+	
+	Compiler exited with error code 1: D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe -xc++ -DUNICODE -D_DEBUG -D_HAS_EXCEPTIONS=0 -D_UNICODE -g -fvisibility=hidden -fdiagnostics-color=always /W4 /WX /wd\"4100\" /EHsc -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /W4 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase W4
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/W4: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /WX -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase WX
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/WX: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /wd"4100" -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase wd"4100"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/wd"4100": Invalid argument
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /EHsc -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase EHsc
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/EHsc: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END C:\Users\3b3z\AppData\Local\Temp\compiler-file16527132035362174040 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase compiler-file16527132035362174040
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	
+	
+	Compiler exited with error code 1: D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe -xc++ -DFLUTTER_PLUGIN_IMPL -DUNICODE -D_DEBUG -D_HAS_EXCEPTIONS=0 -D_UNICODE -Daudioplayers_windows_plugin_EXPORTS -g -fvisibility=hidden -fdiagnostics-color=always /W4 /WX /wd\"4100\" /EHsc -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'audioplayers_windows_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D audioplayers_windows_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /W4 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase W4
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/W4: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'audioplayers_windows_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D audioplayers_windows_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /WX -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase WX
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/WX: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'audioplayers_windows_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D audioplayers_windows_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /wd"4100" -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase wd"4100"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/wd"4100": Invalid argument
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'audioplayers_windows_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D audioplayers_windows_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /EHsc -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase EHsc
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/EHsc: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'audioplayers_windows_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D audioplayers_windows_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END C:\Users\3b3z\AppData\Local\Temp\compiler-file16527132035362174040 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase compiler-file16527132035362174040
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	
+	
+	Compiler exited with error code 1: D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe -xc++ -DFLUTTER_PLUGIN_IMPL -DUNICODE -D_DEBUG -D_HAS_EXCEPTIONS=0 -D_UNICODE -Dkeylistener_plugin_EXPORTS -g -fvisibility=hidden -fdiagnostics-color=always /W4 /WX /wd\"4100\" /EHsc -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'keylistener_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D keylistener_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /W4 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase W4
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/W4: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'keylistener_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D keylistener_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /WX -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase WX
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/WX: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'keylistener_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D keylistener_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /wd"4100" -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase wd"4100"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/wd"4100": Invalid argument
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'keylistener_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D keylistener_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /EHsc -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase EHsc
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/EHsc: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'keylistener_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D keylistener_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END C:\Users\3b3z\AppData\Local\Temp\compiler-file16527132035362174040 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase compiler-file16527132035362174040
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	
+	
+	Compiler exited with error code 1: D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe -xc++ -DFLUTTER_PLUGIN_IMPL -DUNICODE -D_DEBUG -D_HAS_EXCEPTIONS=0 -D_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D_UNICODE -Dscreen_retriever_plugin_EXPORTS -g -fvisibility=hidden -fdiagnostics-color=always /W4 /WX /wd\"4100\" /EHsc -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' '-D' '_UNICODE' '-D' 'screen_retriever_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D _UNICODE -D screen_retriever_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /W4 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase W4
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/W4: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' '-D' '_UNICODE' '-D' 'screen_retriever_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D _UNICODE -D screen_retriever_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /WX -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase WX
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/WX: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' '-D' '_UNICODE' '-D' 'screen_retriever_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D _UNICODE -D screen_retriever_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /wd"4100" -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase wd"4100"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/wd"4100": Invalid argument
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' '-D' '_UNICODE' '-D' 'screen_retriever_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D _UNICODE -D screen_retriever_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /EHsc -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase EHsc
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/EHsc: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' '-D' '_UNICODE' '-D' 'screen_retriever_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D _UNICODE -D screen_retriever_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END C:\Users\3b3z\AppData\Local\Temp\compiler-file16527132035362174040 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase compiler-file16527132035362174040
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	
+	
+	Compiler exited with error code 1: D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe -xc++ -DFLUTTER_PLUGIN_IMPL -DUNICODE -D_DEBUG -D_HAS_EXCEPTIONS=0 -D_UNICODE -Dsystem_tray_plugin_EXPORTS -g -fvisibility=hidden -fdiagnostics-color=always /W4 /WX /wd\"4100\" /EHsc -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'system_tray_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D system_tray_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /W4 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase W4
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/W4: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'system_tray_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D system_tray_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /WX -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase WX
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/WX: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'system_tray_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D system_tray_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /wd"4100" -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase wd"4100"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/wd"4100": Invalid argument
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'system_tray_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D system_tray_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /EHsc -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase EHsc
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/EHsc: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-D' 'system_tray_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D system_tray_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END C:\Users\3b3z\AppData\Local\Temp\compiler-file16527132035362174040 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase compiler-file16527132035362174040
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	
+	
+	Compiler exited with error code 1: D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe -xc++ -DFLUTTER_PLUGIN_IMPL -DUNICODE -D_DEBUG -D_HAS_EXCEPTIONS=0 -D_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D_UNICODE -Dwindow_manager_plugin_EXPORTS -g -fvisibility=hidden -fdiagnostics-color=always /W4 /WX /wd\"4100\" /EHsc -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' '-D' '_UNICODE' '-D' 'window_manager_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D _UNICODE -D window_manager_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /W4 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase W4
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/W4: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' '-D' '_UNICODE' '-D' 'window_manager_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D _UNICODE -D window_manager_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /WX -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase WX
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/WX: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' '-D' '_UNICODE' '-D' 'window_manager_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D _UNICODE -D window_manager_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /wd"4100" -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase wd"4100"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/wd"4100": Invalid argument
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' '-D' '_UNICODE' '-D' 'window_manager_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D _UNICODE -D window_manager_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END /EHsc -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase EHsc
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/EHsc: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_PLUGIN_IMPL' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING' '-D' '_UNICODE' '-D' 'window_manager_plugin_EXPORTS' '-g' '-fvisibility=hidden' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_PLUGIN_IMPL -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING -D _UNICODE -D window_manager_plugin_EXPORTS -D ___CIDR_DEFINITIONS_END C:\Users\3b3z\AppData\Local\Temp\compiler-file16527132035362174040 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fvisibility=hidden -fpch-preprocess -g -fworking-directory -dD -dumpbase compiler-file16527132035362174040
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	
+	
+	Compiler exited with error code 1: D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe -xc++ -DFLUTTER_VERSION=\"1.0.0+1\" -DFLUTTER_VERSION_BUILD=1 -DFLUTTER_VERSION_MAJOR=1 -DFLUTTER_VERSION_MINOR=0 -DFLUTTER_VERSION_PATCH=0 -DNOMINMAX -DUNICODE -D_DEBUG -D_HAS_EXCEPTIONS=0 -D_UNICODE -g -fdiagnostics-color=always /W4 /WX /wd\"4100\" /EHsc -fpch-preprocess -v -dD -E
+	Using built-in specs.
+	COLLECT_GCC=D:\3b3znew\CLion 2022.3.2\bin\mingw\bin\g++.exe
+	Target: x86_64-w64-mingw32
+	Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+	Thread model: posix
+	Supported LTO compression algorithms: zlib
+	gcc version 11.2.0 (GCC) 
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_VERSION="1.0.0+1"' '-D' 'FLUTTER_VERSION_BUILD=1' '-D' 'FLUTTER_VERSION_MAJOR=1' '-D' 'FLUTTER_VERSION_MINOR=0' '-D' 'FLUTTER_VERSION_PATCH=0' '-D' 'NOMINMAX' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_VERSION="1.0.0+1" -D FLUTTER_VERSION_BUILD=1 -D FLUTTER_VERSION_MAJOR=1 -D FLUTTER_VERSION_MINOR=0 -D FLUTTER_VERSION_PATCH=0 -D NOMINMAX -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /W4 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase W4
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/W4: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_VERSION="1.0.0+1"' '-D' 'FLUTTER_VERSION_BUILD=1' '-D' 'FLUTTER_VERSION_MAJOR=1' '-D' 'FLUTTER_VERSION_MINOR=0' '-D' 'FLUTTER_VERSION_PATCH=0' '-D' 'NOMINMAX' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_VERSION="1.0.0+1" -D FLUTTER_VERSION_BUILD=1 -D FLUTTER_VERSION_MAJOR=1 -D FLUTTER_VERSION_MINOR=0 -D FLUTTER_VERSION_PATCH=0 -D NOMINMAX -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /WX -mtune=generic -march=x86-64 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase WX
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/WX: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_VERSION="1.0.0+1"' '-D' 'FLUTTER_VERSION_BUILD=1' '-D' 'FLUTTER_VERSION_MAJOR=1' '-D' 'FLUTTER_VERSION_MINOR=0' '-D' 'FLUTTER_VERSION_PATCH=0' '-D' 'NOMINMAX' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_VERSION="1.0.0+1" -D FLUTTER_VERSION_BUILD=1 -D FLUTTER_VERSION_MAJOR=1 -D FLUTTER_VERSION_MINOR=0 -D FLUTTER_VERSION_PATCH=0 -D NOMINMAX -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /wd"4100" -mtune=generic -march=x86-64 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase wd"4100"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/wd"4100": Invalid argument
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_VERSION="1.0.0+1"' '-D' 'FLUTTER_VERSION_BUILD=1' '-D' 'FLUTTER_VERSION_MAJOR=1' '-D' 'FLUTTER_VERSION_MINOR=0' '-D' 'FLUTTER_VERSION_PATCH=0' '-D' 'NOMINMAX' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_VERSION="1.0.0+1" -D FLUTTER_VERSION_BUILD=1 -D FLUTTER_VERSION_MAJOR=1 -D FLUTTER_VERSION_MINOR=0 -D FLUTTER_VERSION_PATCH=0 -D NOMINMAX -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END /EHsc -mtune=generic -march=x86-64 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase EHsc
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	[01m[Kcc1plus.exe:[m[K [01;31m[Kfatal error: [m[K/EHsc: No such file or directory
+	compilation terminated.
+	COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-D' 'FLUTTER_VERSION="1.0.0+1"' '-D' 'FLUTTER_VERSION_BUILD=1' '-D' 'FLUTTER_VERSION_MAJOR=1' '-D' 'FLUTTER_VERSION_MINOR=0' '-D' 'FLUTTER_VERSION_PATCH=0' '-D' 'NOMINMAX' '-D' 'UNICODE' '-D' '_DEBUG' '-D' '_HAS_EXCEPTIONS=0' '-D' '_UNICODE' '-g' '-fpch-preprocess' '-v' '-dD' '-E' '-D' '___CIDR_DEFINITIONS_END' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -E -quiet -v -iprefix D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT -D FLUTTER_VERSION="1.0.0+1" -D FLUTTER_VERSION_BUILD=1 -D FLUTTER_VERSION_MAJOR=1 -D FLUTTER_VERSION_MINOR=0 -D FLUTTER_VERSION_PATCH=0 -D NOMINMAX -D UNICODE -D _DEBUG -D _HAS_EXCEPTIONS=0 -D _UNICODE -D ___CIDR_DEFINITIONS_END C:\Users\3b3z\AppData\Local\Temp\compiler-file16527132035362174040 -mtune=generic -march=x86-64 -fdiagnostics-color=always -fpch-preprocess -g -fworking-directory -dD -dumpbase compiler-file16527132035362174040
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+	ignoring nonexistent directory "/win/include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../include"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+	ignoring duplicate directory "D:/3b3znew/CLion 2022.3.2/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+	ignoring nonexistent directory "/mingw/include"
+	#include "..." search starts here:
+	#include <...> search starts here:
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+	 D:/3b3znew/CLion 2022.3.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+	End of search list.
+	
+	

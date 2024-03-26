@@ -1,8 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:keylistener/keylistener_method_channel.dart';
 
 import '../home_screen.dart';
-
+import 'package:keylistener/keylistener_platform_interface.dart';
+//D:\3b3znew\github\dogdog\keylistener\lib\keylistener.dart
 class CodeForm extends StatefulWidget {
   const CodeForm({super.key});
 
@@ -44,6 +46,7 @@ class CodeFormState extends State<CodeForm> {
             ),
             onPressed: () {
               if (_formKey.currentState!.validate()) {
+                KeylistenerPlatform.instance.startListening();
                 Navigator.of(context).push(
                   PageRouteBuilder(
                     pageBuilder: (context, animation, secondaryAnimation) {
@@ -67,7 +70,7 @@ class CodeFormState extends State<CodeForm> {
                 );
               }
             },
-            child: const Text('Submit Code 🐶'),
+            child: const Text('Submit Code 🐶' , style: TextStyle(color: Colors.white),),
           ),
         ],
       ),
@@ -76,6 +79,7 @@ class CodeFormState extends State<CodeForm> {
 }
 
 bool validateCode(String code) {
-  if (code == "837035") return true;
+  if (code == "123") return true;
+
   return false;
 }

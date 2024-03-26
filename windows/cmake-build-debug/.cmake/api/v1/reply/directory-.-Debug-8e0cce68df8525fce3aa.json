@@ -1,0 +1,124 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 75,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 78,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 81,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 93,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Runtime",
+			"destination" : "D:/3b3znew/github/dogdog/windows/cmake-build-debug/runner",
+			"paths" : 
+			[
+				"runner/doggy.exe"
+			],
+			"targetId" : "doggy::@056c4f61b0156d1d9b06",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Runtime",
+			"destination" : "D:/3b3znew/github/dogdog/windows/cmake-build-debug/runner/data",
+			"paths" : 
+			[
+				"flutter/ephemeral/icudtl.dat"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Runtime",
+			"destination" : "D:/3b3znew/github/dogdog/windows/cmake-build-debug/runner",
+			"paths" : 
+			[
+				"flutter/ephemeral/flutter_windows.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Runtime",
+			"destination" : "D:/3b3znew/github/dogdog/windows/cmake-build-debug/runner",
+			"paths" : 
+			[
+				"cmake-build-debug/plugins/audioplayers_windows/libaudioplayers_windows_plugin.dll",
+				"cmake-build-debug/plugins/keylistener/libkeylistener_plugin.dll",
+				"cmake-build-debug/plugins/screen_retriever/libscreen_retriever_plugin.dll",
+				"cmake-build-debug/plugins/system_tray/libsystem_tray_plugin.dll",
+				"cmake-build-debug/plugins/window_manager/libwindow_manager_plugin.dll"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Runtime",
+			"type" : "code"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Runtime",
+			"destination" : "D:/3b3znew/github/dogdog/windows/cmake-build-debug/runner/data",
+			"paths" : 
+			[
+				"D:/3b3znew/github/dogdog/build//flutter_assets"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	}
+}

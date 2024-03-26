@@ -1,0 +1,24 @@
+# ninja log v5
+0	31	7328780975815835	nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-mkdir	bdf64977db300d76
+0	31	7328780975815835	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-mkdir	bdf64977db300d76
+31	2517	7328781000681735	nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-download	2a61a75c580d132f
+31	2517	7328781000681735	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-download	2a61a75c580d132f
+2517	2545	7328781000966638	nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-update	4b3eae7e4fe3a5a9
+2517	2545	7328781000966638	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-update	4b3eae7e4fe3a5a9
+2546	2574	7328781001245916	nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-patch	cf193a41e429b6a2
+2546	2574	7328781001245916	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-patch	cf193a41e429b6a2
+2574	2613	7328781001644838	nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-copyfile	bbc15d32f734d45d
+2574	2613	7328781001644838	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-src/nuget.exe	bbc15d32f734d45d
+2574	2613	7328781001644838	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-copyfile	bbc15d32f734d45d
+2613	2643	7328781001926377	nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-configure	bc21126d8937c7ab
+2613	2643	7328781001926377	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-configure	bc21126d8937c7ab
+2643	2672	7328781002225576	nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-build	d6f9e5e53cbbe5f7
+2643	2672	7328781002225576	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-build	d6f9e5e53cbbe5f7
+2672	2702	7328781002524773	nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-install	97d706f3b7671435
+2672	2702	7328781002524773	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-install	97d706f3b7671435
+2702	2728	7328781002784075	nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-test	e526803d30b37c6a
+2702	2728	7328781002784075	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-test	e526803d30b37c6a
+2728	2766	7328781003173299	CMakeFiles/nuget-populate-complete	69ba9f293bcfc5fa
+2728	2766	7328781003173299	nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-done	69ba9f293bcfc5fa
+2728	2766	7328781003173299	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/CMakeFiles/nuget-populate-complete	69ba9f293bcfc5fa
+2728	2766	7328781003173299	D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/nuget-populate-prefix/src/nuget-populate-stamp/nuget-populate-done	69ba9f293bcfc5fa

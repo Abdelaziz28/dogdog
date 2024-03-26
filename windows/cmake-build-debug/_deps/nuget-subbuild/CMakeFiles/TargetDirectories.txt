@@ -1,0 +1,3 @@
+D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/CMakeFiles/nuget-populate.dir
+D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/CMakeFiles/edit_cache.dir
+D:/3b3znew/github/dogdog/windows/cmake-build-debug/_deps/nuget-subbuild/CMakeFiles/rebuild_cache.dir

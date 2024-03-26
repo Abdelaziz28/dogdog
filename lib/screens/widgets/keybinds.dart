@@ -32,18 +32,7 @@ class _KeyboardListenState extends State<KeyboardListen> {
           focusNode: widget.focusNode,
           autofocus: true,
           onKey: (event) {
-            if (event.isKeyPressed(model.key1)) {
-              AudioPlayer().play(AssetSource('sounds/fart2.wav'));
-            }
-            if (event.isKeyPressed(model.key2)) {
-              AudioPlayer().play(AssetSource('sounds/bark1.wav'));
-            }
-            if ((event.isKeyPressed(model.key3))) {
-              AudioPlayer().play(AssetSource('sounds/fart1.wav'));
-            }
-            if ((event.isKeyPressed(model.key4))) {
-              AudioPlayer().play(AssetSource('sounds/bark2.wav'));
-            }
+
           },
           child: Container(),
         );
