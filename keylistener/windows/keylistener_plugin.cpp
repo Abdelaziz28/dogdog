@@ -1,3 +1,6 @@
+//import io.flutter.plugin.common.MethodCall;
+//import io.flutter.plugin.common.MethodChannel;
+
 #include "keylistener_plugin.h"
 #include "flutter/flutter_engine.h"
 #include "flutter/method_channel.h"
@@ -99,7 +102,23 @@ void KeylistenerPlugin::HandleMethodCall(
       // Unhook and exit
       UnhookWindowsHookEx(hook);
   }else if(method_call.method_name().compare("reloadKeys") == 0){
-//    cout<<"ee"<<endl;
+      const auto* arguments = std::get_if<flutter::EncodableList>(method_call.arguments());
+      if (arguments == nullptr || arguments->size() != 4) {
+          result->Error("Invalid arguments", "Expected 4 string arguments");
+          return;
+      }
+      std::string param1 = std::get<std::string>((*arguments)[0]);
+      std::string param2 = std::get<std::string>((*arguments)[1]);
+      std::string param3 = std::get<std::string>((*arguments)[2]);
+      std::string param4 = std::get<std::string>((*arguments)[3]);
+      char key11 = param1[0];
+      char key22 = param2[0];
+      char key33 = param3[0];
+      char key44 = param4[0];
+      key1 = key11;
+      key2 = key22;
+      key3 = key33;
+      key4 = key44;
   }else if((method_call.method_name().compare("Exit") == 0)){
       exit(EXIT_SUCCESS);
   }else {

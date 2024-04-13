@@ -10,14 +10,6 @@ class Keylistener {
   }
   Future exit() {
     return KeylistenerPlatform.instance.exit();
-  }Future reload1() {
-    return KeylistenerPlatform.instance.exit();
-  }Future reload2() {
-    return KeylistenerPlatform.instance.exit();
-  }Future reload3() {
-    return KeylistenerPlatform.instance.exit();
-  }Future reload4() {
-    return KeylistenerPlatform.instance.exit();
   }
   Future<void> reloadKeys(String param1, String param2, String param3, String param4) async {
     return KeylistenerPlatform.instance.reloadKeys(param1, param2, param3, param4);

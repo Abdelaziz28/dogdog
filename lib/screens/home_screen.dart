@@ -36,20 +36,22 @@ class _HomeScreenState extends State<HomeScreen> with WindowListener {
     KeylistenerPlatform.instance.exit();
     super.dispose();
   }
-
+  //
   @override
   Future<void> onWindowClose() async {
+    appWindow.close();
     KeylistenerPlatform.instance.exit();
+    this.dispose();
   }
-
-  @override
-  Future<void> onWindowMinimize() async {
-    windowManager.setMinimumSize(Size(50, 50));
-    windowManager.setSize(Size(60, 60));
-    windowManager.setOpacity(0);
-    // appWindow.show();
-    windowManager.focus();
-  }
+  //
+  // @override
+  // Future<void> onWindowMinimize() async {
+  //   windowManager.setMinimumSize(Size(50, 50));
+  //   windowManager.setSize(Size(60, 60));
+  //   windowManager.setOpacity(0);
+  //   // appWindow.show();
+  //   windowManager.focus();
+  // }
 
   // @override
   // Future<void> onWindowBlur() async {
@@ -90,16 +92,16 @@ class _HomeScreenState extends State<HomeScreen> with WindowListener {
                       RawKeyboardListener(
                         focusNode: secondaryFocusNode1,
                         onKey: (event) {
-                          // key1 = event.logicalKey.keyLabel;
-                          // setState(() {
-                          //   key1 = event.logicalKey.keyLabel;
-                          // });
-                          // KeylistenerPlatform.instance.reloadKeys(
-                          //   key1,
-                          //   key2,
-                          //   key3,
-                          //   key4,
-                          // );
+                          key1 = event.logicalKey.keyLabel;
+                          setState(() {
+                            key1 = event.logicalKey.keyLabel;
+                          });
+                          KeylistenerPlatform.instance.reloadKeys(
+                            key1,
+                            key2,
+                            key3,
+                            key4,
+                          );
                           secondaryFocusNode1.unfocus();
                           _focusNode.requestFocus();
                         },
@@ -130,16 +132,16 @@ class _HomeScreenState extends State<HomeScreen> with WindowListener {
                       RawKeyboardListener(
                         focusNode: secondaryFocusNode2,
                         onKey: (event) {
-                          // key2 = event.logicalKey.keyLabel;
-                          // setState(() {
-                          //   key2 = event.logicalKey.keyLabel;
-                          // });
-                          // KeylistenerPlatform.instance.reloadKeys(
-                          //   key1,
-                          //   key2,
-                          //   key3,
-                          //   key4,
-                          // );
+                          key2 = event.logicalKey.keyLabel;
+                          setState(() {
+                            key2 = event.logicalKey.keyLabel;
+                          });
+                          KeylistenerPlatform.instance.reloadKeys(
+                            key1,
+                            key2,
+                            key3,
+                            key4,
+                          );
                           secondaryFocusNode2.unfocus();
                           _focusNode.requestFocus();
                         },
@@ -170,15 +172,15 @@ class _HomeScreenState extends State<HomeScreen> with WindowListener {
                       RawKeyboardListener(
                         focusNode: secondaryFocusNode3,
                         onKey: (event) {
-                          // setState(() {
-                          //   key3 = event.logicalKey.keyLabel;
-                          // });
-                          // KeylistenerPlatform.instance.reloadKeys(
-                          //   key1,
-                          //   key2,
-                          //   key3,
-                          //   key4,
-                          // );
+                          setState(() {
+                            key3 = event.logicalKey.keyLabel;
+                          });
+                          KeylistenerPlatform.instance.reloadKeys(
+                            key1,
+                            key2,
+                            key3,
+                            key4,
+                          );
                           secondaryFocusNode3.unfocus();
                           _focusNode.requestFocus();
                         },
@@ -209,15 +211,15 @@ class _HomeScreenState extends State<HomeScreen> with WindowListener {
                       RawKeyboardListener(
                         focusNode: secondaryFocusNode4,
                         onKey: (event) {
-                          // setState(() {
-                          //   key4 = event.logicalKey.keyLabel;
-                          // });
-                          // KeylistenerPlatform.instance.reloadKeys(
-                          //   key1,
-                          //   key2,
-                          //   key3,
-                          //   key4,
-                          // );
+                          setState(() {
+                            key4 = event.logicalKey.keyLabel;
+                          });
+                          KeylistenerPlatform.instance.reloadKeys(
+                            key1,
+                            key2,
+                            key3,
+                            key4,
+                          );
                           secondaryFocusNode4.unfocus();
                           _focusNode.requestFocus();
                         },

@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:flutter/cupertino.dart';
+import 'package:keylistener/keylistener_platform_interface.dart';
 import 'package:system_tray/system_tray.dart';
 import 'package:window_manager/window_manager.dart';
 
@@ -43,7 +44,10 @@ Future<void> initSystemTray() async {
         onClicked: (menuItem) {
           appWindow.hide();
         }),
-    MenuItemLabel(label: 'Exit', onClicked: (menuItem) => appWindow.close()),
+    MenuItemLabel(label: 'Exit', onClicked: (menuItem){
+      KeylistenerPlatform.instance.exit();
+      appWindow.close();
+  }),
   ]);
 
   // set context menu
