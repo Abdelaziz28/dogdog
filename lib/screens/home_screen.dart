@@ -2,11 +2,13 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter/widgets.dart';
 import 'package:keylistener/keylistener_platform_interface.dart';
 import 'package:provider/provider.dart';
 import 'package:registration_screens_task1/screens/widgets/keybinds.dart';
+import 'package:registration_screens_task1/screens/widgets/slider.dart';
 import 'package:registration_screens_task1/screens/widgets/sound_button.dart';
-import 'package:system_tray/system_tray.dart';
+// import 'package:system_tray/system_tray.dart';
 import 'package:window_manager/window_manager.dart';
 import '../../main.dart';
 
@@ -20,7 +22,6 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> with WindowListener {
-  final AppWindow appWindow = AppWindow();
 
   @override
   void initState() {
@@ -39,7 +40,6 @@ class _HomeScreenState extends State<HomeScreen> with WindowListener {
   //
   @override
   Future<void> onWindowClose() async {
-    appWindow.close();
     KeylistenerPlatform.instance.exit();
     this.dispose();
   }
@@ -244,7 +244,9 @@ class _HomeScreenState extends State<HomeScreen> with WindowListener {
                   // SizedBox(
                   //   height: screenHeight * 0.1,
                   // ),
-                  KeyboardListen(focusNode: _focusNode)
+                  KeyboardListen(focusNode: _focusNode),
+                  SizedBox(height: screenHeight*0.12),
+                  SizedBox(width:screenWidth*0.8,child: CustomSlider()),
                 ],
               );
             },

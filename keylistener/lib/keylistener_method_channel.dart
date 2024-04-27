@@ -27,4 +27,12 @@ class MethodChannelKeylistener extends KeylistenerPlatform {
       print("Error invoking method: $e");
     }
  }
+ //{'volume': volume}
+ Future<void> setVol(int volume) async {
+    try {
+      await methodChannel.invokeMethod('SetVolume', [volume]);
+    } catch (e) {
+      print("Error invoking method: $e");
+    }
+ }
 }

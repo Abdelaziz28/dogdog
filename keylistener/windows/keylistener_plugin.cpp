@@ -15,6 +15,10 @@
 #include <memory>
 #include <sstream>// For getPlatformVersion; remove unless needed for your plugin implementation.
 #include <VersionHelpers.h>
+#include <iostream>
+#include <mmdeviceapi.h>
+#include <endpointvolume.h>
+#include <audiopolicy.h>
 #pragma comment(lib, "Winmm.lib")
 
 
@@ -30,20 +34,16 @@ LRESULT CALLBACK KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam) {
         PKBDLLHOOKSTRUCT p = (PKBDLLHOOKSTRUCT)lParam;
         if (wParam == WM_KEYDOWN) {
             if(static_cast<unsigned char>(p->vkCode) == static_cast<unsigned char>(key1)){
-                playSound("assets\\bark1.wav");
-
+                playSound("assets\\fart1.wav");
             }
             if(static_cast<unsigned char>(p->vkCode) == static_cast<unsigned char>(key2)){
-                playSound("assets\\bark2.wav");
-
+                playSound("assets\\bark1.wav");
             }
             if(static_cast<unsigned char>(p->vkCode) == static_cast<unsigned char>(key3)){
-                playSound("assets\\fart1.wav");
-
+                playSound("assets\\fart2.wav");
             }
             if(static_cast<unsigned char>(p->vkCode) == static_cast<unsigned char>(key4)){
-                playSound("assets\\fart2.wav");
-
+                playSound("assets\\bark2.wav");
             }
         }
     }
@@ -121,9 +121,21 @@ void KeylistenerPlugin::HandleMethodCall(
       key4 = key44;
   }else if((method_call.method_name().compare("Exit") == 0)){
       exit(EXIT_SUCCESS);
+  }else if((method_call.method_name().compare("SetVolume") == 0)){
+      const auto* arguments = std::get_if<flutter::EncodableList>(method_call.arguments());
+        int volume = std::get<int>((*arguments)[0]);
+//      const auto* arguments = std::get_if<flutter::EncodableValue>(method_call.arguments());
+//      auto volume_value = arguments->find(flutter::EncodableValue("volume"));
+//      int volume = std::get<int>(arguments);
+//      volume = std::max(0, std::min(volume, 100));
+//      int volume = 0;
+//      Windows specific code
+    int newVolume = (volume * 65535) / 100; // Convert to range [0, 65535]
+    waveOutSetVolume(0, MAKELONG(newVolume, newVolume));
   }else {
     result->NotImplemented();
   }
 }
 
 }  // namespace keylistener
+//objective c

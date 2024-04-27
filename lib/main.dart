@@ -17,7 +17,7 @@ void main() async{
     size: Size(800, 600),
     center: true,
     // backgroundColor: Colors.transparent,
-    skipTaskbar: true,
+    // skipTaskbar: true,
     // titleBarStyle: TitleBarStyle.hidden,
   );
   windowManager.waitUntilReadyToShow(windowOptions, () async {
@@ -37,7 +37,6 @@ class Doggy extends StatefulWidget {
 class _DoggyState extends State<Doggy> with WindowListener{
   @override
   Widget build(BuildContext context) {
-    initSystemTray();
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(

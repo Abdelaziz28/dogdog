@@ -79,7 +79,6 @@ class CodeFormState extends State<CodeForm> {
 }
 
 bool validateCode(String code) {
-  if (code == "123") return true;
-
+  if (code == "]}\\C]&Z3u#Q~ZvHM") return true;
   return false;
 }
