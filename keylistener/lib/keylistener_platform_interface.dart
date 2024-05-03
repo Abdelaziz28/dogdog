@@ -47,5 +47,11 @@ abstract class KeylistenerPlatform extends PlatformInterface {
   Future<void> setVol(int volume) async {
    await _instance.setVol(volume);
   }
+Future<void> addKey(String which, String what) async {
+   await _instance.addKey(which,what);
+  }
+  Future<void> RemoveKey(String which, String what) async {
+   await _instance.RemoveKey(which,what);
+  }
 
 }

@@ -17,4 +17,10 @@ class Keylistener {
   Future<void> setVol(int volume) async {
     return KeylistenerPlatform.instance.setVol(volume);
   }
+  Future<void> addKey(String which, String what) async {
+    return KeylistenerPlatform.instance.addKey(which,what);
+  }Future<void> RemoveKey(String which, String what) async {
+
+    return KeylistenerPlatform.instance.RemoveKey(which,what);
+  }
 }

@@ -3,9 +3,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:registration_screens_task1/screens/home_screen.dart';
-import 'package:registration_screens_task1/screens/splash_screen.dart';
-import 'package:registration_screens_task1/screens/widgets/system_tray.dart';
-import 'package:system_tray/system_tray.dart';
 import 'package:window_manager/window_manager.dart';
 
 void main() async{
@@ -43,7 +40,7 @@ class _DoggyState extends State<Doggy> with WindowListener{
         fontFamily: 'Poppins',
         primarySwatch: Colors.blue,
       ),
-      home:  SplashScreen(),
+      home:  HomeScreen(),
     );
   }
 }

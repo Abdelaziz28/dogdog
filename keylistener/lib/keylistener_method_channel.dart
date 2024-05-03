@@ -35,4 +35,17 @@ class MethodChannelKeylistener extends KeylistenerPlatform {
       print("Error invoking method: $e");
     }
  }
+ Future<void> addKey(String which,String what) async {
+    try {
+      await methodChannel.invokeMethod('AddKey', [which,what]);
+    } catch (e) {
+      print("Error invoking method: $e");
+    }
+ }Future<void> RemoveKey(String which,String what) async {
+    try {
+      await methodChannel.invokeMethod('RemoveKey', [which,what]);
+    } catch (e) {
+      print("Error invoking method: $e");
+    }
+ }
 }
