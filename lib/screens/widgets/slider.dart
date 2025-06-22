@@ -1,39 +1,84 @@
 import 'package:flutter/material.dart';
-import 'package:keylistener/keylistener_platform_interface.dart';
 
-class CustomSlider extends StatefulWidget {
+class VolumeSlider extends StatefulWidget {
+  final double initialValue;
+  final Function(double) onVolumeChanged;
 
-  const CustomSlider({Key? key}) : super(key: key);
+  const VolumeSlider({
+    super.key,
+    this.initialValue = 50.0,
+    required this.onVolumeChanged,
+  });
 
   @override
-  _CustomSliderState createState() => _CustomSliderState();
+  State<VolumeSlider> createState() => _VolumeSliderState();
 }
-class _CustomSliderState extends State<CustomSlider> {
-  double _value = 50;
+
+class _VolumeSliderState extends State<VolumeSlider> {
+  late double _currentValue;
+
+  @override
+  void initState() {
+    super.initState();
+    _currentValue = widget.initialValue;
+  }
 
   @override
   Widget build(BuildContext context) {
-    KeylistenerPlatform.instance.setVol(_value.round());
-    return SliderTheme(
+    return Column(
+      children: [
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            const Icon(
+              Icons.volume_down,
+              color: Colors.grey,
+              size: 20,
+            ),
+            const SizedBox(width: 8),
+            Text(
+              'Volume: ${_currentValue.round()}%',
+              style: const TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.w500,
+                color: Colors.grey,
+              ),
+            ),
+            const SizedBox(width: 8),
+            const Icon(
+              Icons.volume_up,
+              color: Colors.grey,
+              size: 20,
+            ),
+          ],
+        ),
+        const SizedBox(height: 8),
+        SliderTheme(
           data: SliderTheme.of(context).copyWith(
+            activeTrackColor: Colors.blueAccent,
+            inactiveTrackColor: Colors.grey.withOpacity(0.3),
             thumbColor: Colors.blueAccent,
-            overlayColor: Colors.blue.withAlpha(32),
-            activeTrackColor: Colors.blue,
-            inactiveTrackColor: Colors.grey,
+            overlayColor: Colors.blueAccent.withOpacity(0.2),
+            trackHeight: 6,
+            thumbShape: const RoundSliderThumbShape(enabledThumbRadius: 10),
+            overlayShape: const RoundSliderOverlayShape(overlayRadius: 20),
           ),
-      child: Slider(
-        value: _value,
-        min: 1,
-        max: 100,
-        divisions: 99,
-        onChanged: (newValue) {
-          setState(() {
-            _value = newValue;
-            KeylistenerPlatform.instance.setVol(newValue.round());
-          });
-        },
-
-      ),
+          child: Slider(
+            value: _currentValue,
+            min: 0,
+            max: 100,
+            divisions: 100,
+            onChanged: (newValue) {
+              setState(() {
+                _currentValue = newValue;
+              });
+            },
+            onChangeEnd: (newValue) {
+              widget.onVolumeChanged(newValue);
+            },
+          ),
+        ),
+      ],
     );
   }
 }

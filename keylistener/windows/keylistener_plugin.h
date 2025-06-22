@@ -3,7 +3,6 @@
 
 #include <flutter/method_channel.h>
 #include <flutter/plugin_registrar_windows.h>
-
 #include <memory>
 
 namespace keylistener {
@@ -13,7 +12,6 @@ class KeylistenerPlugin : public flutter::Plugin {
   static void RegisterWithRegistrar(flutter::PluginRegistrarWindows *registrar);
 
   KeylistenerPlugin();
-
   virtual ~KeylistenerPlugin();
 
   // Disallow copy and assign.
@@ -24,6 +22,9 @@ class KeylistenerPlugin : public flutter::Plugin {
   void HandleMethodCall(
       const flutter::MethodCall<flutter::EncodableValue> &method_call,
       std::unique_ptr<flutter::MethodResult<flutter::EncodableValue>> result);
+
+ private:
+  void cleanup();
 };
 
 }  // namespace keylistener
